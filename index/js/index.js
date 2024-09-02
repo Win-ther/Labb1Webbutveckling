@@ -1,5 +1,4 @@
 function displayVacationData(){
-    const parent = document.querySelector('.big-container');
     const url = 'data/index.json';
     fetch(url)
         .then(response => response.json())
