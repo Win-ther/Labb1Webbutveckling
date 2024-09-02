@@ -1,3 +1,4 @@
+"use strict";
 function displayVacationData(){
     const url = 'data/index.json';
     fetch(url)

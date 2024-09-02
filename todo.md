@@ -57,6 +57,19 @@ Media Queries för att ändra typsnitt, marginaler, menyer etc för de olika
 skärmstorlekarna (kan kombineras med Grid och/eller Flexbox).~~
 ~~- Kan behöva ändra typsnitt/annat vid byte till css för mindre skärm.~~
 
+~~• Man ska kunna spara något användare skriver in t ex ”inställningar som talar
+om vad som ska visas på startsidan”, ”t ex favoritmat som sedan visar ett
+recept utifrån det på startsidan” i Local storage (som du sedan använder/visar i
+någon form på hemsidan).~~
+~~- // Detta har jag gjort typ, jag har sparat alla reviews i local
+storage. Kanske bör göra något mer gällande detta dock, får kollas på sist.~~
+~~• Du också kunna beskriva genom exempel hur du har anpassat hemsidan enligt
+ovan (VG-kriteriet för anpassning för Desktop, tablet och mobil) genom t ex
+skärmdump(-ar) och kort förklaring vad koden gör. Lämnas in skriftligt som t ex
+word-fil tillsammans med källkoden till hemsidan.~~
+~~- //Kan inte göra detta förrän jag gjort färdig allt annat.~~
+
+
 För Godkänt kvar:
 ~~~~
 
@@ -65,16 +78,5 @@ För Väl Godkänt kvar:
 ~~~~
 
 
-• Du också kunna beskriva genom exempel hur du har anpassat hemsidan enligt
-ovan (VG-kriteriet för anpassning för Desktop, tablet och mobil) genom t ex
-skärmdump(-ar) och kort förklaring vad koden gör. Lämnas in skriftligt som t ex
-word-fil tillsammans med källkoden till hemsidan.
-    - //Kan inte göra detta förrän jag gjort färdig allt annat.
 
-• Man ska kunna spara något användare skriver in t ex ”inställningar som talar
-om vad som ska visas på startsidan”, ”t ex favoritmat som sedan visar ett
-recept utifrån det på startsidan” i Local storage (som du sedan använder/visar i
-någon form på hemsidan).
-    - // Detta har jag gjort typ, jag har sparat alla reviews i local
-    storage. Kanske bör göra något mer gällande detta dock, får kollas på sist.
-    - kanske kan göra en knapp som ändrar bakgrundsbilden till en mörkare?
+

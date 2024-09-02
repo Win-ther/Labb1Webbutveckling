@@ -1,3 +1,4 @@
+"use strict";
 const elReviewForm = document.querySelector('.reviewForm');
 const elReviewScore = document.querySelector('#reviewScore');
 const elReviewText = document.querySelector('#reviewText');

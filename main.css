@@ -72,3 +72,11 @@ input {
 input:invalid{
     border: 2px solid red;
 }
+@media (max-width: 1040px) {
+    nav {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1px;
+        justify-content: stretch;
+    }
+}

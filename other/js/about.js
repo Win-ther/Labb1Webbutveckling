@@ -1,3 +1,4 @@
+"use strict";
 function displayContext(){
     const output = document.querySelector('#contextOutput');
     const url = 'data/about.json';

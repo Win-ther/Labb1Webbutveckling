@@ -37,12 +37,6 @@
             "boxes boxes boxes boxes boxes boxes"
             "footer footer footer footer footer footer";
     }
-    nav {
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1px;
-        justify-content: stretch;
-    }
 }
 @media(max-width: 767px) {
     .boxes {
@@ -52,5 +46,10 @@
     }
     .box {
         min-height: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .grid-container {
+        padding: 10px;
     }
 }

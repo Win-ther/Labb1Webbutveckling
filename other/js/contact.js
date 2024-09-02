@@ -1,3 +1,4 @@
+"use strict";
 function displayContacts(){
     const url = 'data/contact.json';
     fetch(url)

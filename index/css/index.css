@@ -84,25 +84,6 @@ img{
         justify-self: center;
     }
 }
-@media (max-width: 1040px) {
-    .grid-container{
-        grid-template-areas:
-            "header header header header header header"
-            "nav nav nav nav nav nav"
-            "nav nav nav nav nav nav"
-            "nav nav nav nav nav nav"
-            "nav nav nav nav nav nav"
-            "big-container big-container big-container big-container big-container big-container"
-            "boxes boxes boxes boxes boxes boxes"
-            "footer footer footer footer footer footer";
-    }
-    nav {
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1px;
-        justify-content: stretch;
-    }
-}
 @media(max-width: 767px) {
     .boxes {
         grid-template-columns: none;

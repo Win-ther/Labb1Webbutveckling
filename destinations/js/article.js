@@ -1,3 +1,4 @@
+"use strict";
 function displayArticle(){
     document.querySelector('.big-container');
     const url = 'data/article.json';
