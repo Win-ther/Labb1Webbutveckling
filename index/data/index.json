@@ -1,0 +1,33 @@
+{
+  "pageTitle": "RESMÅL",
+  "austria": {
+    "countryName": "ÖSTERRIKE",
+    "article": "Österrikes huvudstad Wien är en riktig kulturstad med historisk arkitektur, caféer, konsthistoria och berömdheter som psykoanalytikerns fader Freud.",
+    "imageLink": "../../destinations/austria/img/austria big.jpg",
+    "imgAlt": "Austrian town in the mountains"
+  },
+  "cuba": {
+    "countryName": "KUBA",
+    "article": "Under en resa till Kuba kan du både känna historiens vingslag i Havanna och koppla av på Varaderos vita paradisstränder, välkommen till Karibien!",
+    "imageLink": "../../destinations/cuba/img/cuba.jpg",
+    "imgAlt": "Old stone building in back with old american cars infront"
+  },
+  "canaries": {
+    "countryName": "KANARIEÖARNA",
+    "article": "Resor har arrangerats till Kanarieöarna sedan 1958, och öarna lockar fortfarande med sitt solsäkra klimat och många fina stränder.",
+    "imageLink": "../../destinations/canaries/img/canarie-islands.jpg",
+    "imgAlt": "Tropical cove with a beutiful beach viewed from above"
+  },
+  "japan": {
+    "countryName": "JAPAN",
+    "article": "En resa till kontrastrika Japan är oförglömlig, här samsas tusenårig historia och uråldriga traditioner med högteknologi och storstädernas neonljus.",
+    "imageLink": "../../destinations/japan/img/japan.jpg",
+    "imgAlt": "A neonlit street in Japan"
+  },
+  "gambia": {
+    "countryName": "GAMBIA",
+    "article": "Din resa till Gambia blir en spännande blandning av naturupplevelser, folkliv, lokal kokkonst och sol, massor av sol.",
+    "imageLink": "../../destinations/gambia/img/gambia.jpg",
+    "imgAlt": "A beutiful beach in sunny Gambia"
+  }
+}

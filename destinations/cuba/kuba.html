@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../main.css">
+    <link rel="stylesheet" type="text/css" href="../css/destination.css">
+    <title>Cuba</title>
+</head>
+<body>
+<div class="grid-container">
+    <header>
+        <h1 id="title"></h1>
+    </header>
+    <nav>
+        <input type="button" value="Home" onclick="location.href='../../index/index.html'">
+        <input type="button" value="About" onclick="location.href='../../other/about.html'">
+        <input type="button" value="Contact" onclick="location.href='../../other/contact.html'">
+    </nav>
+    <main class="boxes">
+        <section class="big-container cuba">
+            <h3 id="articleHeader"></h3>
+            <p id="articleBody"></p>
+            <img id="articleImage">
+        </section>
+        <section class="big-container reviewBoxes">
+            <h2>Recension</h2>
+            <h3 id="scoreOutput">Poäng:</h3>
+            <h3>Recension:</h3>
+            <p id="reviewOutput"></p>
+        </section>
+        <section class="big-container reviewBoxes">
+            <h2>Skriv en recension</h2>
+            <form class="reviewForm">
+                <p><label for="reviewScore">Välj poäng(0-5):</label></p>
+                <input type="number" name="reviewScore" id="reviewScore" min="0" max="5" value=0 required>
+                <p><label for="reviewText">Skriv review(Max 200ord):</label></p>
+                <textarea id="reviewText" name="reviewText" rows="10" cols="25"></textarea><br><br>
+                <input type="submit" value="Skicka">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Emil Winther &copy; 2024</p>
+    </footer>
+    <script src="/destinations/js/recension.js"></script>
+    <script src="/destinations/js/article.js"></script>
+</div>
+</body>
+</html>

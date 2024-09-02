@@ -1,0 +1,120 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            "header header header header header header"
+            "nav nav nav nav nav nav"
+            "big-container big-container big-container boxes boxes boxes"
+            "footer footer footer footer footer footer";
+    gap: 20px;
+    padding: 50px;
+    border-radius: 10px;
+
+    color: rgba(190, 255, 240, 0.98);
+}
+.big-container {
+    grid-area: big-container;
+    background-image: url("../../destinations/austria/img/austria big.jpg");
+    min-height: 300px;
+    max-height: 300px;
+    max-width: 640px;
+    border: 2px solid black;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+
+}
+img{
+    display: none;
+}
+.big-container::-webkit-scrollbar {
+    display: none;
+}
+.boxes {
+    grid-area: boxes;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 10px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: stretch;
+    align-self: stretch;
+}
+.box::-webkit-scrollbar {
+    display: none;
+}
+.box > p:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.box1 {
+    background-image: url("../../destinations/cuba/img/cuba.jpg");
+}
+
+.box2 {
+    background-image: url("../../destinations/canaries/img/canarie-islands.jpg");
+}
+
+.box3 {
+    background-image: url("../../destinations/japan/img/japan.jpg");
+}
+
+.box4 {
+    background-image: url("../../destinations/gambia/img/gambia.jpg");
+}
+@media (max-width: 1430px){
+    .grid-container{
+        grid-template-areas:
+            "header header header header header header"
+            "nav nav nav nav nav nav"
+            "big-container big-container big-container big-container big-container big-container"
+            "boxes boxes boxes boxes boxes boxes"
+            "footer footer footer footer footer footer";
+    }
+    .big-container{
+        justify-self: center;
+        align-self: center;
+    }
+    .boxes {
+        justify-self: center;
+    }
+}
+@media (max-width: 1040px) {
+    .grid-container{
+        grid-template-areas:
+            "header header header header header header"
+            "nav nav nav nav nav nav"
+            "nav nav nav nav nav nav"
+            "nav nav nav nav nav nav"
+            "nav nav nav nav nav nav"
+            "big-container big-container big-container big-container big-container big-container"
+            "boxes boxes boxes boxes boxes boxes"
+            "footer footer footer footer footer footer";
+    }
+    nav {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1px;
+        justify-content: stretch;
+    }
+}
+@media(max-width: 767px) {
+    .boxes {
+        grid-template-columns: none;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: stretch;
+    }
+    .box {
+        min-height: 400px;
+    }
+}
+@media (max-width: 500px) {
+    .grid-container {
+        padding: 10px;
+    }
+}

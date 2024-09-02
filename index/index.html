@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Travel Destinations</title>
+</head>
+<body>
+<div class="grid-container">
+    <header>
+        <h1 id="title"></h1>
+    </header>
+    <nav>
+        <input type="button" value="Home" onclick="location.href='index.html'">
+        <input type="button" value="About" onclick="location.href='../other/about.html'">
+        <input type="button" value="Contact" onclick="location.href='../other/contact.html'">
+    </nav>
+    <main class="big-container" onclick="location.href='../destinations/austria/austria.html'">
+        <section>
+            <h2 id="austriaTitle"></h2>
+            <p id="austriaArticle"></p>
+        </section>
+        <img id="austriaImage">
+    </main>
+    <aside class="boxes">
+        <section class="box box1" onclick="location.href='../destinations/cuba/kuba.html'">
+            <h3 id="cubaTitle"></h3>
+            <p id="cubaArticle"></p>
+            <img id="cubaImage">
+        </section>
+        <section class="box box2" onclick="location.href='../destinations/canaries/kanarieöarna.html'">
+            <h3 id="canariesTitle"></h3>
+            <p id="canariesArticle"></p>
+            <img id="canariesImage">
+        </section>
+        <section class="box box3" onclick="location.href='../destinations/japan/japan.html'">
+            <h3 id="japanTitle"></h3>
+            <p id="japanArticle"></p>
+            <img id="japanImage">
+        </section>
+        <section class="box box4" onclick="location.href='../destinations/gambia/gambia.html'">
+            <h3 id="gambiaTitle"></h3>
+            <p id="gambiaArticle"></p>
+            <img id="gambiaImage">
+        </section>
+    </aside>
+    <script src="js/index.js"></script>
+    <footer>
+        <p>Emil Winther &copy; 2024</p>
+    </footer>
+</div>
+</body>
+</html>
