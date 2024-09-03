@@ -83,9 +83,6 @@ img {
 }
 
 @media (max-width: 767px) {
-    .boxes {
-        justify-content: center;
-    }
     h2 {
         font-size: 25px;
     }
